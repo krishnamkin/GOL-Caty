@@ -495,4 +495,17 @@
             </reporting>
         </profile>
     </profiles>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a7ec88537eb2-releases</name>
+        <url>http://35.154.153.54:8081/artifactory/libs-release-local</url>
+    </repository>
+        
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a7ec88537eb2-snapshots</name>
+        <url>http://35.154.153.54:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
